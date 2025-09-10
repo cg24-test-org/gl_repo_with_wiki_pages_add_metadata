@@ -1,6 +1,3 @@
-stages:
-    - deploy
-
 pages:
     stage: deploy
     script:
@@ -8,5 +5,3 @@ pages:
     artifacts:
         paths:
             - public
-    only:
-        - main
